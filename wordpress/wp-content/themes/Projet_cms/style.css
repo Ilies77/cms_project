@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+  }
+body{
+    background-color: #050A3A;
+    color: #fff;
+}
+
+.container .title p{
+    font-style: normal;
+    font-size: 84px;
+    line-height: 105px;
+}
+.container p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 42px;
+}
+
+footer p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px
+}
+
+ul li{
+    list-style-type:none;
+}
+.li_name{   
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.box_footer {
+    display: flex;
+    justify-content: flex-end;
+}
