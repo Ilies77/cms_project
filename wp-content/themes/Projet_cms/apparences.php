@@ -3,13 +3,11 @@
 add_action('customize_register', function (WP_Customize_Manager $manager_img){
 
     $manager_img->add_section('img-changes', [
-        'title' => 'Changement de l\'image', 
+        'title' => 'Changement de l\'image section 1', 
     ]);
 
     $manager_img->add_setting('img_add', [
-        'capability'=> 'edit_theme_options',
-        'default' => '',
-        'sanitize_callback' => 'ic_sanitize_image',
+        'default' => 'http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask-1.png'
     ]);
 
     $manager_img->add_control(new WP_Customize_Image_Control($manager_img, 'img_add', [

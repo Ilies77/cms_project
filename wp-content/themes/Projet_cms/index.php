@@ -8,7 +8,7 @@
             <p>A really professional structure for all your events!</p>
         </div>
         <div>
-            <img src="http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask-1.png" alt="Erreur photo" class="img" style="background-image:<?php echo (get_theme_mod('img_add'));?> !important">
+            <img src="<?php echo (get_theme_mod('img_add'));?>" alt="Erreur photo" class="img" >
         </div>
         <div class="box1">
             <h4>About Us</h4>
