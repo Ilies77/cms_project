@@ -4,7 +4,9 @@
 }
 
 /*Page 404*/
-
+.index-container{
+    background-color: #fff;
+}
 .container{
     background-color: #050A3A;
     color: #ffff;

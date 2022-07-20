@@ -7,7 +7,7 @@
     <?php wp_head() ?>
 </head>
 
-<body>
+<body style="background-color: <?php echo (get_theme_mod('header_background'));?> !important">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
         <img src="http://localhost/dev/wordpress/wp-content/uploads/2022/07/ESGI.png" alt="Erreur photo">
     </nav>

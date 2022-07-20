@@ -1,12 +1,14 @@
-<?php get_header() ?>
+<?php get_header() 
+
+?>
 
 <main>
-    <div class="">
+    <div class="index-container" style="background-color: <?php echo (get_theme_mod('body_background'));?> !important">
         <div class="title">
             <p>A really professional structure for all your events!</p>
         </div>
         <div>
-            <img src="http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask-1.png" alt="Erreur photo" class="img">
+            <img src="http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask-1.png" alt="Erreur photo" class="img" style="background-image:<?php echo (get_theme_mod('img_add'));?> !important">
         </div>
         <div class="box1">
             <h4>About Us</h4>

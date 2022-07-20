@@ -1,5 +1,5 @@
 
-    <footer>
+    <footer style="background-color: <?php echo (get_theme_mod('footer_background'));?> !important">
     <?php
     // wp_nav_menu([
     //     'theme_location' => 'footer',
