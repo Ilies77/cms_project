@@ -8,13 +8,6 @@ Template Name: contact.php
 
 <?php get_header(); ?>
 
-<!-- <p>A desire for a big big party or a very select congress? Contact us.</p>
-
-<div class="infos">
-    <div class="location"></div>
-</div> -->
-
-
 <main>
     <div class="">
         <div class="title">

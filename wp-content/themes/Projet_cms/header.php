@@ -11,3 +11,13 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
         <img src="http://localhost/dev/wordpress/wp-content/uploads/2022/07/ESGI.png" alt="Erreur photo">
     </nav>
+
+    <nav role="navigation">
+    <div id="menuToggle">
+        <input type="checkbox" />
+        <img src="http://localhost/dev/wordpress/wp-content/uploads/2022/07/Open_menu.png" alt="Erreur photo" >
+        <ul id="menu">
+            <?php wp_nav_menu( ); ?>
+        </ul>
+    </div>
+    </nav>

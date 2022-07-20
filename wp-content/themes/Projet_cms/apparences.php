@@ -3,7 +3,7 @@
 add_action('customize_register', function (WP_Customize_Manager $manager_img){
 
     $manager_img->add_section('img-changes', [
-        'title' => 'Changement de l\'image section 1', 
+        'title' => 'Changement de l\'image', 
     ]);
 
     $manager_img->add_setting('img_add', [
