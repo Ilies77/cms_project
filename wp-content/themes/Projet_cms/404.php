@@ -1,7 +1,6 @@
 <?php get_header() ?>
 <main>
-    <div>
-        <div class="container">
+    <div class="container">
             <div class="title">
                  <p>404 Error.</p>
             </div>
@@ -12,6 +11,5 @@
                 <?php get_search_form() ?>
             </div>
         </div>
-    </div>
 </main>
 <?php get_footer() ?>

@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+}
+
+/*Page 404*/
+
+.container{
+    background-color: #050A3A;
+    color: #ffff;
+}
+
+.container .title p{
+    font-style: normal;
+    font-size: 84px;
+    line-height: 105px;
+}
+.container p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 42px;
+}
+
+footer p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px
+}
+
+ul li{
+    list-style-type:none;
+}
+.li_name{   
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.box_footer {
+    display: flex;
+    justify-content: flex-end;
+} 
+
+footer{
+    background-color: #050A3A;
+    color: #fff;
+}
+
+/*Page index*/
+
+.title p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 42px;
+}
+.box{
+    width: 350px;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box h4{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+.box1{
+    width: 50%;
+    padding: 25px;
+    /* border: 5px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 h4{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 26px;
+}
+
+
+.box2{
+    left: 50%;
+    top: 50%;
+    width: 800px;
+    justify-content: space-around;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_deco{
+    text-decoration: underline;
+    width: auto;
+    float: left;
+}
+
+.img{
+    width: 1000px;
+    height: 300px;
+    left:500px;
+    top:42px;
+    position:relative;
+}
+
+
+.img1{
+    float: left;
+    margin-right:10px;
+    width: 300px;
+    height: 500px;
+}
+
+.img2, .img3, .img4{
+    float: left;
+    width: 150px;
+    height:100px; 
+    margin-right:10px;
+    padding: 5px;
+}
+
+.group_img{
+    text-align: center;
+   vertical-align: middle;
+   justify-content: space-between;
+   align-content: flex-start;
+   letter-spacing: 50px;
+}

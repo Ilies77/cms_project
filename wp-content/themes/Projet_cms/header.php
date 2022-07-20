@@ -9,7 +9,5 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
-        <img src="/src/esgi_logo.png" alt="Erreur photo">
+        <img src="http://localhost/dev/wordpress/wp-content/uploads/2022/07/ESGI.png" alt="Erreur photo">
     </nav>
-
-    <div class="container"

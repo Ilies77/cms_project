@@ -1,4 +1,4 @@
-</div>
+
     <footer>
     <?php
     // wp_nav_menu([
@@ -7,8 +7,11 @@
     //     'menu_class' => 'navbar-nav mr-auto'
     // ])
     ?>
-    <div">
+    <br>
+    <div> 
+        <img src="http://localhost/dev/wordpress/wp-content/uploads/2022/07/esgi_logo.png" alt="Erreur photo">
         <div class="box_footer">  
+       
             <ul>
                 <li class="li_name">Manager</li>
                 <li>+33 1 53 31 25 23</li>
