@@ -21,5 +21,10 @@ function setup_theme(){
 }
 add_action('wp_enqueue_scripts', 'setup_theme');
 
+register_sidebar( array(
+	'id' => 'blog-sidebar',
+	'name' => 'Blog',
+) );
+
 
 ?>

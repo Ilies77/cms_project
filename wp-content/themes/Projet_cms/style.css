@@ -238,16 +238,14 @@ footer{
   margin: 10px 0 0 auto;
   padding: 50px;
  
-  visibility: hidden;
   background: #050A3A;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
+  transform: translate(-110%, 0);
   
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  transition: transform 0.5s;
 }
 
 #menu li
@@ -260,5 +258,5 @@ footer{
 #menuToggle input:checked ~ ul
 {
   transform: none;
-  visibility: visible;
+  
 }

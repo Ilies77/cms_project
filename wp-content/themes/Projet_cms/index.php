@@ -2,18 +2,18 @@
 
 <main>
     <div class="index-container" style="background-color: <?php echo (get_theme_mod('body_background'));?> !important">
-        <div class="title">
-            <p>A really professional structure for all your events!</p>
+        <div class="title" >
+            <p><?php echo get_theme_mod( 'text_block1', 'A really professional structure for all your events!'); ?></p>
         </div>
         <div>
-            <img src="<?php echo (get_theme_mod('img_add', 'http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask-1.png'));?>" alt="Erreur photo" class="img" >
+            <img src="<?php echo (get_theme_mod('img_add_block1', 'http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask-1.png'));?>" alt="Erreur photo" class="img" >
         </div>
         <div class="box1">
-            <h4>About Us</h4>
-            <p>Specializing in the creation of exceptional events for private and corporate clients, we design, plan and manage every project from conception to execution. </p>
+            <h4><?php echo get_theme_mod( 'text_para2_block1', 'About Us'); ?></h4>
+            <p><?php echo get_theme_mod( 'text_para2_block2', 'Specializing in the creation of exceptional events for private and corporate clients, we design, plan and manage every project from conception to execution.'); ?></p>
         </div>
         <div>
-            <img src="http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask1-2.png" alt="Erreur photo" class="img1">
+            <img src="<?php echo (get_theme_mod('img_add_block2', 'http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask1-2.png'));?>" alt="Erreur photo" class="img1">
         </div>
         <div class="box">
             
@@ -34,13 +34,17 @@
             <p>Our Services</p>
         </div>
         <div class="box2">
-            
-            <div><img src="http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask2-1.png" alt="Erreur photo" class="img2"></div>
-            <div><img src="http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask3-1.png" alt="Erreur photo" class="img3"></div>
+            <div>
+                <img src="<?php echo (get_theme_mod('img_add_block3', 'http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask2-1.png'));?>" alt="Erreur photo" class="img2">
+            </div>
+            <div>
+                <img src="<?php echo (get_theme_mod('img_add_block4', 'http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask3-1.png'));?>" alt="Erreur photo" class="img3">            </div>
             <div class="text_deco">
                 <p>Private Parties</p>
             </div>
-            <div><img src="http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask4-1.png" alt="Erreur photo" class="img4"></div>
+            <div>
+                <img src="<?php echo (get_theme_mod('img_add_block5', 'http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask4-1.png'));?>" alt="Erreur photo" class="img4">
+            </div>
         </div>
         <div class="box3">
             <div class="title">

@@ -36,7 +36,7 @@ Template Name: contact.php
             <img src="http://localhost/dev/wordpress/wp-content/uploads/2022/07/Mask.png" alt="Erreur Photo" class="img11">
         </div>
 
-        <?php get_search_form(); ?>
+        <?php get_footer() ?>
 
 
         

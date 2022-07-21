@@ -26,8 +26,12 @@
     <div>
         <p>2022  Figma Template by ESGI</p>
     </div>
+    <?php dynamic_sidebar( 'blog-sidebar' ); ?>
+    
 </div>
     </footer>
-<?php wp_footer() ?>
+<?php 
+
+wp_footer() ?>
 </body>
 </html>
